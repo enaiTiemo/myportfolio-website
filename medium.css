@@ -1,0 +1,151 @@
+@media (max-width: 1000px) {
+   .info {
+    max-width: 420px;
+  }
+
+  .about-link {
+   margin-top: 50px;
+  }
+}
+
+@media (max-width: 890px) {
+  .info {
+    max-width: 380px;
+  }
+
+  .lighter {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 720px) {
+  .info {
+    max-width: 200px;
+  }
+
+  .about-link {
+    margin-top: 120px;
+  }
+
+  .social-media {
+    position: absolute;
+    bottom: 0px;
+    left: 410px;
+    height: 100px;
+    overflow: visible;
+  }
+}
+
+@media (max-width: 719px) {
+  .home-menu {
+   
+   display: flex;
+   justify-content: space-evenly;
+   padding-left: 0px;
+   background-color: #0f172a;
+  }
+
+  .intro {
+    visibility: hidden;
+  }
+
+  .image-bar {
+    width: 100px;
+    
+  }
+
+  .greetings {
+   box-shadow: 4px 4px 4px  rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    background-color: #e7eaee;
+  }
+
+
+
+  .social-media {
+    position: absolute;
+    bottom: 0;
+    left: 330px;
+  }
+
+  .image-bar {
+    width: 300px;
+    
+  }
+}
+
+@media (max-width: 719px) {
+  .home-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .greetings {
+    position: relative;
+    padding-left: 0;
+    display: flex;
+    justify-content: top;
+    width: 100%;
+    padding-bottom: 50px;
+    border-radius: 7px;
+  }
+
+  .social-media {
+    position: absolute;
+    left: 28%;
+    right: 50%;
+    top: 350px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .info {
+  
+    max-width: 350px;
+  }
+
+  .image-bar {
+    
+    margin-bottom: -40px;
+    border-radius: 50%;
+    height: fit-content;
+    width: fit-content;
+    overflow: hidden;
+    z-index: 30;
+    
+  }
+  .image-bar img {
+    height: 100%;
+    width: 200px; 
+    
+    
+  }
+}
+
+@media (max-width: 500px) {
+  .social-media {
+    position: absolute;
+    left: 20%;
+    right: 50%;
+    top: 350px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sidebar.active {
+    right: 0;
+    width: 950px;
+    transform: translateX(25%);
+    
+  }
+}
+

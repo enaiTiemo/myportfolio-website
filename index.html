@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="medium.css">
+  <link rel="stylesheet" href="page2.css">
+  <link rel="stylesheet" href="page3.css">
+  <link rel="stylesheet" href="page4.css">
+  <link rel="stylesheet" href="page5.css">
+</head>
+<body>
+  <div class="menu" onclick="toggleMenu()"></div>
+  <div class="lighter">
+    <button onclick="changeToDark()"></button>
+  </div>
+
+  <div class="home-menu hidden" id="home">
+    <div class="image-bar">
+      <img src="portfolio/IMG_2308.jpg" >
+    </div>
+    <div class="greetings">
+      <div class="intro">MY_PORTFOLIO</div>
+      
+      <div class="intro1"> <span>Hello</span>, i'm</div>
+      <div class="name-underline">
+        <h1 class="name">Enai Tiemo</h1>
+        <div class="underline">.</div>
+      </div>
+      
+      <div class="job">I'm a Front End Web Developer.</div>
+      <div class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Facere doloribus commodi cumque magni sed nemo eaque veniam suscipit eius iste, ducimus alias nihil 
+        quaerat, deleniti reiciendis ullam delectus rem nulla!
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
+      <div class="about-link">
+        <button > <a href="#about">About Me</a> </button>
+      </div>
+      <div class="social-media"> 
+        <div class="media">
+          <img src="portfolio/facebook.png">
+        </div>
+        <div class="medias">
+          <img src="portfolio/twitter.PNG" class="twitter-img">
+        </div>
+        <div class="media">
+          <img src="portfolio/instagram.png" >
+        </div>
+        <div class="medias">
+          <img src="portfolio/IMG_3598.PNG" class="twitter-img" >
+        </div>
+      </div>
+    </div>
+    <div class="waves">
+      <img src="portfolio/568E66D2-D630-430D-AFE8-A6F4EEE4E6C0-removebg-preview.png" >
+    </div>
+    
+  </div>
+
+  <div class="sidebar" >
+    <div class="listers">
+      <div class="lists"> <a href="#home" onclick="toggleMenu()">HOME</a> </div>
+      <div class="lists"> <a href="#about" onclick="toggleMenu()">ABOUT</a> </div>
+      <div class="lists"><a href="#service" onclick="toggleMenu()">SERVICES</a>  </div>
+      <div class="lists"> <a href="#work" onclick="toggleMenu()">WORK</a>  </div>
+      <div class="lists"> <a href="#contactus" onclick="toggleMenu()">CONTACT</a>  </div>
+    </div>
+ 
+  </div>
+
+  <div class="page2 hidden" id="about">
+    <div class="title hidden ">
+      <h2>About</h2>
+      <div class="line"></div>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, explicabo.</p>
+    </div>
+    <div class="about-center section-center hidden">
+      <article class="about-img">
+        <img src="portfolio/IMG_2321.JPG" alt="">
+      </article>
+      <article class="about">
+        <div class="btn-container">
+          <button class="tab-btn active" data-id="History">History</button>
+          <button class="tab-btn" data-id="Vision">Vision</button>
+          <button class="tab-btn" data-id="Goals">Goals</button>
+        </div>
+        <article class="about-content">
+          <div class="content active" id="History">
+            <h4>History</h4>
+            <p>
+              
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum quas soluta doloribus eum? Quis dolorem ullam dolore repudiandae placeat ut tempora, explicabo atque. Consequatur, itaque porro. Facere dolorem a amet quam eveniet iste atque rem error excepturi. Aliquam nostrum, in blanditiis aspernatur molestias repudiandae. Harum doloribus voluptate deleniti provident nihil.
+            </p>
+          </div>
+          <div class="content " id="Vision">
+            <h4>Vision</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fuga modi aut veniam quisquam pariatur quis odio. Voluptate sint est id repudiandae fuga illo veniam laborum voluptatem quo numquam dolorum debitis iusto aut animi odio officia hic placeat, aliquid libero. Fuga amet id repellat mollitia nostrum veritatis eius earum optio.
+            </p>
+            <ul>
+              <li>Lorem ipsum dolor sit.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem, ipsum dolor sit amet consectetur adipisicing.</li>
+            </ul>
+          </div>
+          <div class="content " id="Goals">
+            <h4>Goals</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo sapiente magnam laborum? Tempora vel dolore natus accusantium voluptates, perspiciatis reprehenderit minus, sunt vitae excepturi expedita delectus sit at porro consectetur saepe obcaecati eaque illo laborum. Excepturi necessitatibus nobis cupiditate quae neque velit cum, amet quas mollitia ipsum. Voluptas, eos dignissimos.
+            </p>
+          </div>
+        </article>
+      </article>
+    
+    </div>
+   </div>
+
+  <div class="ourservices-page hidden" id="service">
+    <div class="service-line">
+      <h2>OUR SERVICES</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Nesciunt libero iusto tempore voluptatum laudantium delectus provident!  </p>
+    </div>
+    <!-- grid -->
+    <div class="grid-menu">
+      <div class="boxer hidden">
+        <img src="portfolio/icon1.png" class="icon1" >
+        <p class="linez">Web Design</p>
+        <span class="paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, natus sapiente! Laborum quae error eaque dolorum similique qui, itaque beatae! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, officiis? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor accusamus corrupti doloribus animi, voluptatibus doloremque laborum quidem dolorem qui provident.
+        </span>
+      </div>
+      <div class="boxer hidden">
+        <img src="portfolio/icon2.png" class="icon1" >
+        <p class="linez">Web Developement</p>
+        <span class="paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, natus sapiente! Laborum quae error eaque dolorum similique qui, itaque beatae! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, officiis? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor accusamus corrupti doloribus animi, voluptatibus doloremque laborum quidem dolorem qui provident.
+        </span>
+      </div>
+      <div class="boxer hidden">
+        <img src="portfolio/icon3.png" class="icon1" >
+        <p class="linez">Android Apps</p>
+        <span class="paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, natus sapiente! Laborum quae error eaque dolorum similique qui, itaque beatae! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, officiis? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor accusamus corrupti doloribus animi, voluptatibus doloremque laborum quidem dolorem qui provident.
+        </span>
+      </div>
+      <div class="boxer hidden">
+        <img src="portfolio/icon4.png" class="icon1" >
+        <p class="linez">Photography</p>
+        <span class="paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, natus sapiente! Laborum quae error eaque dolorum similique qui, itaque beatae! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, officiis? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor accusamus corrupti doloribus animi, voluptatibus doloremque laborum quidem dolorem qui provident.
+        </span>
+      </div>
+      <div class="boxer hidden">
+        <img src="portfolio/icon5.png" class="icon1" >
+        <p class="linez">Content Writing</p>
+        <span class="paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, natus sapiente! Laborum quae error eaque dolorum similique qui, itaque beatae! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, officiis? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor accusamus corrupti doloribus animi, voluptatibus doloremque laborum quidem dolorem qui provident.
+        </span>
+      </div>
+      <div class="boxer hidden">
+        <img src="portfolio/icon6.png" class="icon1" >
+        <p class="linez">Video Editing</p>
+        <span class="paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, natus sapiente! Laborum quae error eaque dolorum similique qui, itaque beatae! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, officiis? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor accusamus corrupti doloribus animi, voluptatibus doloremque laborum quidem dolorem qui provident.
+        </span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="recent-work hidden" id="work">
+    <div class="work-line boxer hidden">
+      <h2 class="boxer hidden">RECENT WORK</h2>
+       <div class="button boxer hidden"></div>
+      <p class="loremline boxer hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Nesciunt libero iusto tempore voluptatum laudantium delectus provident!  </p>
+    </div>
+    
+    <div class="picture-grid hidden">
+      <div class="grid grid1 boxer hidden">
+        <img src="portfolio/img8.jpg" class="images">
+      </div>
+      <div class="grid grid2 boxer hidden">
+        <img src="portfolio/img7.jpg" class="images">
+      </div>
+      <div class="grid grid3 boxer hidden">
+        <img src="portfolio/img1.jpg" class="images">
+      </div>
+      <div class="grid grid4 boxer hidden">
+        <img src="portfolio/img6.jpg" class="images">
+      </div> 
+      <div class="grid grid5 boxer hidden">
+        <img src="portfolio/img2.jpg" class="images">
+      </div>
+      <div class="grid grid6 boxer hidden">
+        <img src="portfolio/img3.jpg" class="images">
+      </div>
+      <div class="grid grid7 boxer hidden">
+        <img src="portfolio/img4.jpg" class="images">
+      </div>
+      <div class="grid grid8 boxer hidden">
+        <img src="portfolio/img5.jpg" class="images">
+      </div>
+    </div>
+
+    <!-- contact us page  -->
+    <div class="contact-us boxer hidden" id="contactus">
+      <div class="work-line boxer hidden">
+        <h2 class="boxer hidden">CONTACT US</h2>
+         <div class="button boxer hidden"></div>
+        <p class="loremline boxer hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Nesciunt libero iusto tempore voluptatum laudantium delectus provident!  </p>
+      </div>
+
+      <div class="contact">
+        <div class="contact-box boxer hidden">
+          <h2>LOGIN</h2>
+          <div class="inputbox">
+            <label for="">Email</label>
+            <input type="email" required>
+          </div>
+          <div class="inputbox">
+            <label for="">Password</label>
+            <input type="password" required>
+          </div>
+
+          <div class="forget">
+            <label for=""><input type="checkbox">Remember Me</label>
+            <a href="#">Forgot Password</a>
+          </div>
+          <button class="logs">Log in</button>
+          <div class="register">
+            <p>Don't have a account <a href="#">Register</a></p>
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+
+
+    
+  </div>
+
+
+  <script>
+   function toggleMenu() {
+     const  menuToggled = document.querySelector('.menu');
+     menuToggled.classList.toggle('active');
+
+     const clicker = document.querySelector('.sidebar');
+     clicker.classList.toggle('active');
+
+   }
+
+   function changeToDark() {
+     const change = document.querySelector('body');
+     change.classList.toggle('active');
+   }
+
+   const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      console.log(entry)
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show')
+      }
+      else {
+        entry.target.classList.remove('show')
+      }
+    });
+   });
+
+   const hiddenElements = document.querySelectorAll('.hidden')
+   hiddenElements.forEach((el) => observer.observe(el));
+
+   const btns  = document.querySelectorAll('.tab-btn');
+const about = document.querySelector('.about');
+const articles  = document.querySelectorAll('.content');
+
+about.addEventListener('click', function(e) {
+  const id = e.target.dataset.id;
+  if(id) {
+    btns.forEach(function (btn) {
+      btn.classList.remove('active');
+      e.target.classList.add('active');
+    });
+    //hide other articles 
+    articles.forEach(function (article) {
+      article.classList.remove('active');
+    } );
+
+    const element = document.getElementById(id);
+    element.classList.add('active');
+  }
+})
+  </script>
+  
+</body>
+</html>
